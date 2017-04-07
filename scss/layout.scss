@@ -163,11 +163,27 @@ hr{
 
 #gallery{
 	width: 100%;
-	margin: 0 auto;padding-top: 50px;
+	margin: 0 auto;
+	padding-top: 50px;
 	max-width: 960px;
 	@include clearfix();
 
 	h1{
 		font-size: 36px;
+	}
+
+	.picA{
+		width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+
+		img{
+			width: 100%;
+		}
+
+	}
+
+	.pic{
+		float: left;
 	}
 }
