@@ -21,20 +21,30 @@
 		font-size: 18px;
 		padding: 0 25px;
 		text-shadow: 1px 1px 1px #555;
-		@include transition(all .3s);
+		@include transition(all .2s);
 
 		&:hover{
 			color:#ff0033;
-		}
-
-		
+			font-size: 20px;
+		}	
 	}
 }
 
 #banner{
 	width: 100%;
-	background: url(../img/index_01.gif) no-repeat top center;
+	background: url(../img/sjs_001.jpg) no-repeat;
 	background-size: cover;
+	height: 400px;
+	margin: 0 auto;
 
+	p{
+		color: #fff;
+		font-size: 16px;
+	}
+
+	h1{
+		font-size: 36px;
+		color: #fff;
+	}
 
 }
